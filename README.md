@@ -54,7 +54,7 @@ App Hosted on Streamlit Community Cloud: https://vldl-mural-wall-name-finder.str
 2. Google Cloud Vision API was used to extract all the text from the images and save their locations to the db. This is a one time job and all this app does is, it queries the database file and finds the word or even word combos and the image name against the found results.
 3. I'll be sharing the Google Cloud Vision API code base soon, after some cleanup...
 
-
+---
 
 ###### VLDL Mural Wall Name Finder - Made with ❤️ for Viva La Dirt League fans.
 
