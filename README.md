@@ -16,27 +16,31 @@ App Hosted on Streamlit Community Cloud: https://vldl-mural-wall-name-finder.str
    git clone https://github.com/JairajJangle/vldl-mural-wall-name-finder.git
    ```
 
-   
+2. Change the directory to the cloned repo folder
 
-2. Setup Python virtual environment:
+   ```shell
+   cd vldl-mural-wall-name-finder
+   ```
+
+3. Inside this folder, create a Python virtual environment:
 
    ``` shell
    python3 -m venv venv
    ```
 
-3. Activate the virtual environment:
+4. Activate the virtual environment:
 
    ```shell
    source venv/bin/activate
    ```
 
-4. Install the python dependencies:
+5. Install the python dependencies:
 
    ```shell
    pip install requirements.txt
    ```
 
-5. Run the app:
+6. Run the app:
 
    ```shell
    streamlit run main.py
