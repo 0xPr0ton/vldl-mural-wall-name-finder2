@@ -8,7 +8,7 @@ import io
 DB_PATH = "word_data.db" 
 IMAGE_FOLDER = "Images"
 
-st.set_page_config(page_title="VLDL Mural Name Finder", page_icon="🎮")
+st.set_page_config(page_title="VLDL Mural Wall Name Finder", page_icon="🎮")
 
 def search_combination(query, db_path):
     conn = sqlite3.connect(db_path)
